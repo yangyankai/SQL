@@ -1,0 +1,26 @@
+#1 创建表 
+Create Table UserInformation(
+  Uip varchar(50) PRIMARY  KEY(Uip) 
+)
+
+2 添加数据  INSERT INTO usercount (Uid) VALUES (100)
+
+3插入数据中带日期
+INSERT INTO goodsinfor 
+(Gname,Gprice,Gamount,Gdate,Gclass,Gimgurl,Gintro,Gbrief) VALUES 
+('Nike',100,2,'2014-4-4','shoe',001,'this is a shoe','it is nice');
+
+4 创建表，自增长
+ create table userinfor( 
+    name  char(20) ,   
+    id    INT(20) not null AUTO_INCREMENT,  
+    primary key (id));
+
+5 添加新列
+   alter   table   student   add   nickname   char(20)
+   
+6 创建数据库
+如下脚本创建数据库yourdbname，并制定默认的字符集是utf8。
+CREATE DATABASE IF NOT EXISTS yourdbname DEFAULT CHARSET utf8 COLLATE (/create database MyDatabase)
+
+
