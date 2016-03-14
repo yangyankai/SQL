@@ -23,4 +23,5 @@ INSERT INTO goodsinfor
 如下脚本创建数据库yourdbname，并制定默认的字符集是utf8。
 CREATE DATABASE IF NOT EXISTS yourdbname DEFAULT CHARSET utf8 COLLATE (/create database MyDatabase)
 
-
+7 查找
+select Uid from userinfor where Uname like 'u3' and Upwd like 'p3';
